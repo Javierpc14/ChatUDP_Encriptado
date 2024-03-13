@@ -132,7 +132,7 @@ public class ServidorChatUDP {
 
             // aqui creo este array de byte es el que va a contener la imagen
             // es bastante tamaño lo que puede almacenar por si se intentara pasar una imagen muy grande
-            byte[] imagenArray = new byte[62100];
+            byte[] imagenArray = new byte[10000000];
             inputStream.read(imagenArray);
 
             //aqui leo el array con el BufferedImage y muestro la altura y ancho de la imagen recibida
